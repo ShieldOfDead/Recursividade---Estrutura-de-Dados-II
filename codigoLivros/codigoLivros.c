@@ -12,7 +12,7 @@ void limpaEstante (int livro) {
 int main () {
 
     int livros;
-    printf ("Insra a quantidade de livros a ser retirado: ");
+    printf ("Insira a quantidade de livros a ser retirado: ");
     scanf("%d", &livros);
     limpaEstante (livros);
     printf("Todos os livros foram retirados");
